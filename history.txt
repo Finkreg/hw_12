@@ -1,0 +1,20 @@
+  549  2025-01-20 22:31:59 tmux
+  550  2025-01-21 21:48:21 cd study/hw_12/
+  551  2025-01-21 22:04:38 git fetch
+  552  2025-01-21 22:06:42 ls -la
+  553  2025-01-21 22:14:21 git add README.md 
+  554  2025-01-21 22:14:54 git commit -m "files modified"
+  555  2025-01-21 22:17:41 git branch
+  556  2025-01-21 22:17:54 git checkout feature
+  557  2025-01-21 22:18:09 git checkout -b feature
+  558  2025-01-21 22:18:28 vim README.md 
+  559  2025-01-21 22:18:47 vim .gitignore 
+  560  2025-01-21 22:19:04 git add -A
+  561  2025-01-21 22:19:07 git status
+  562  2025-01-21 22:19:27 git commit -m "modified files2"
+  563  2025-01-21 22:19:35 git push origin feature
+  564  2025-01-21 22:24:48 git commit --amend -m "modified files2 amend"
+  565  2025-01-21 22:24:59 git push --force origin feature
+  566  2025-01-21 22:25:22 git checkout main
+  567  2025-01-21 22:25:47 git merge feature
+  568  2025-01-21 22:28:23 history | tail -n 20 > history.txt
